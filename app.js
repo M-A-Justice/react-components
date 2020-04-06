@@ -43,7 +43,7 @@ let GroceryList = (props) => (
 
   <ul>
     {props.items.map(item =>
-      <GroceryListItem item={'Cucumbers', 'Kale'} />
+      <GroceryListItem item={item} />
     )}
   </ul>
 )
